@@ -1,4 +1,4 @@
-#📝 To-Do App
+# 📝 To-Do App
 ## A simple and modern To-Do List Application built with React (Vite) & Express.js to help you manage your daily tasks efficiently.
 
 #🚀 Features
@@ -10,7 +10,11 @@
 - ✅ Responsive Design – Works across all devices.
 
 📸 Screenshots
-Home Page	Task Actions
+
+# ![Image](https://github.com/user-attachments/assets/9fe56a19-064d-4d9e-adec-8d0e4bd3b60d)
+# ![Image](https://github.com/user-attachments/assets/e1e14860-24d6-4e13-817a-be37bdb3bc95)
+# ![Image](https://github.com/user-attachments/assets/73580628-c0a4-488c-a164-1f2d7b6afbf4)
+
 
 
 ## 🛠 Tech Stack
