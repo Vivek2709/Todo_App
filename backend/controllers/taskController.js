@@ -8,14 +8,14 @@ const getTasks = async (req, res) => {
     }
 };
 const addTask = async (req, res) => {
-    const { title } = req.body;
+    const { title, description } = req.body;
 
-    if (!title || title.trim() === "") {
+    if (!title || title.trim() === "" || !description.trim()) {
         return res.status(400).json({ message: "Invalid Task Data" });
     }
 
     try {
-        const task = new Task({ title, completed: false });
+        const task = new Task({ title, description, completed: false });
         await task.save();
         res.status(201).json(task);
     } catch (error) {
